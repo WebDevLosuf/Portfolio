@@ -1,3 +1,9 @@
+.my-skills{
+    @media (max-width:1244px){
+        padding-bottom: px;
+    }
+}
+
 
 .skills-card {
     width: 200px;
@@ -34,10 +40,7 @@
             fill:#F25234 ;
             background-color: #F25234;
         }
-        // .context-btn{
-        //     border-color: $title-color ;
-        //     transition: border-color 0.5s ;
-        // }
+        
         .skills-card__item{
             transition:fill 0.5s ;
         }
@@ -47,4 +50,14 @@
 
 .skills-card__icon {
     margin-bottom: 16px;
+}
+
+.my-skills__cards{
+    @media (max-width:1244px){
+        max-width: 632px ;
+        flex-wrap: wrap;
+        row-gap:16px ;
+        justify-content: center;
+        }
+        
 }

@@ -1,6 +1,12 @@
 .preview{
 padding-top: 72.5px;
 padding-bottom: 72.5px;
+
+@media (max-width:1244px){
+padding-top: 128px;
+padding-bottom: 128px;
+}
+
 }
 .preview__content{
     display: flex;
@@ -10,6 +16,14 @@ padding-bottom: 72.5px;
     &>*{
         flex-shrink: 0;
     }
+
+    @media (max-width:1244px){
+        flex-direction: column;
+        row-gap: 64px;
+        column-gap: 0px;
+        
+    }
+    
 }
 
 
