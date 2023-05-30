@@ -25,6 +25,18 @@
     font-size: 32px;
     line-height: 1.06;
     color: $title-color;
+    
+}
+
+.footer .context-title{
+    @media (max-width:1244px){
+        text-align: center;
+        font-family: 'Roboto Mono', 'monospace';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.21;
+    }
+
 }
 
 .wrapper-card-title {

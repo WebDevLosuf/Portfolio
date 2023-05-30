@@ -331,13 +331,15 @@ body > * {
 }
 @media (max-width: 1244px) {
   .about-me__text {
-    width: 444px;
+    width: 455px;
     font-weight: 500;
+    font-size: 22px;
+    line-height: 1.16;
   }
 }
 
 .my-skills {
-  padding-top: 60px;
+  padding-top: 64px;
   padding-bottom: 64px;
 }
 
@@ -371,9 +373,26 @@ body > * {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media (max-width: 1244px) {
+  .footer__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 64px;
+  }
+}
 
 .footer__copyright {
   width: 213px;
+}
+@media (max-width: 1244px) {
+  .footer__copyright {
+    width: 340px;
+  }
 }
 
 .footer .wrapper-logo {
@@ -382,6 +401,11 @@ body > * {
 .footer .wrapper-logo svg {
   width: 160px;
   height: 44px;
+}
+@media (max-width: 1244px) {
+  .footer .wrapper-logo {
+    text-align: center;
+  }
 }
 
 .footer__text {
@@ -418,6 +442,16 @@ body > * {
   font-size: 32px;
   line-height: 1.06;
   color: #0DB8C2;
+}
+
+@media (max-width: 1244px) {
+  .footer .context-title {
+    text-align: center;
+    font-family: 'Roboto Mono', 'monospace';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.21;
+  }
 }
 
 .wrapper-card-title {
@@ -499,12 +533,6 @@ body > * {
   -webkit-transform: rotate(24.12deg);
           transform: rotate(24.12deg);
   z-index: 1;
-}
-
-@media (max-width: 1244px) {
-  .my-skills {
-    padding-bottom: px;
-  }
 }
 
 .skills-card {
@@ -591,15 +619,12 @@ body > * {
   display: flex;
   -webkit-column-gap: 16px;
           column-gap: 16px;
-  width: 994px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media (max-width: 1244px) {
   .row-roject-cards {
-    max-width: 704px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -625,8 +650,8 @@ body > * {
   transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
-.project-card__img {
-  width: 100%;
+.project-card__img img {
+  width: 320px;
   height: 320px;
 }
 

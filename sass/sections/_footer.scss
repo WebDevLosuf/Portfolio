@@ -7,9 +7,18 @@
     display: flex;
     column-gap: 64px;
     justify-content: center;
+    @media (max-width:1244px){
+        flex-direction: column;
+        align-items: center;
+        row-gap:64px ;
+    }
 }
 .footer__copyright {
     width: 213px;
+    @media (max-width:1244px){
+        width: 340px;
+    }
+    
 }
 .footer .wrapper-logo {
     margin-bottom: 16px;
@@ -18,6 +27,11 @@
         width: 160px;
         height: 44px;
     }
+
+    @media (max-width:1244px){
+        text-align: center;
+    }
+    
 }
 
 .footer__text {
@@ -29,5 +43,4 @@
 }
 .footer__contacts {
 }
-
 
