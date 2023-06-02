@@ -1,25 +1,13 @@
 .about-me{
 padding-top: 64px ;
 padding-bottom: 64px ;
-    @media (max-width:1244px){
-        padding-bottom:43px ;
-    }
 }
 
 .about-me__content {
     display: flex;
-    // width: 1037px;
-    // justify-content: space-between;
     align-items: center;
-    // margin: 0 auto;
     justify-content: center;
     column-gap:32px ;
-
-    
-    @media (max-width:1244px){
-    
-    }
-
 }
 .about-me__img {
 width: 101px;

@@ -297,11 +297,6 @@ body > * {
   padding-top: 64px;
   padding-bottom: 64px;
 }
-@media (max-width: 1244px) {
-  .about-me {
-    padding-bottom: 43px;
-  }
-}
 
 .about-me__content {
   display: -webkit-box;
