@@ -7,7 +7,22 @@
         padding-top:16px;
         padding-bottom: 16px;
     }
+
+    @media (max-width:899px){
+        .container{
+            display: none;
+        }
+        .header__mobile-menu{
+            display: flex;
+            justify-content: space-between;
+            align-items:flex-start;
+        }
+    }
+    
 }
+
+
+
 .header *{
     flex-shrink: 0;
 }
@@ -40,4 +55,6 @@
     column-gap: 65px;
 }
 
-
+.header__mobile-menu{
+    display:none ;
+}
