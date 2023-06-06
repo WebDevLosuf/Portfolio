@@ -4,14 +4,26 @@
     font-weight: 900;
     font-size: 64px;
     line-height: 1;
+    @media (max-width:899px){
+        font-family: 'Inconsolata';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.05;
+    }
 }
 
 .main-subtitle{
     font-family: 'Inconsolata';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 1;
+    @media (max-width:899px){
+        font-family: 'Inconsolata';
+        font-weight: 700;
+        font-size: 32px;
+        line-height:1.06;
+    }
+    
 }
 
 .wrapper-section-title {

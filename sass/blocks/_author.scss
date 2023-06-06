@@ -1,5 +1,9 @@
 .author {
     width: 448px;
+    @media (max-width:899px){
+        width: 314px;
+    }
+    
 }
 .author__wrapper-name {
     margin-bottom:15px;
@@ -7,7 +11,10 @@
     @media (max-width:1244px){
         margin-bottom: 9px;
     }
-    
+
+    @media (max-width:899px){
+        margin-bottom: 16px;
+    }
 }
 
 .author__wrapper-subtitle {
@@ -16,7 +23,10 @@
     @media (max-width:1244px){
         margin-bottom: 21px;
     }
-    
+
+    @media (max-width:899px){
+        margin-bottom: 16px;
+    }
 }
 
 .author__discrption {
@@ -24,4 +34,13 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 1;
+
+
+    @media (max-width:899px){
+    font-family: 'Inconsolata';
+    font-weight: 400;
+    font-size: 24px;
+    line-height:1.04;
+    }
+    
 }

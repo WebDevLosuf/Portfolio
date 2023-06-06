@@ -8,6 +8,15 @@ padding-bottom: 64px ;
     align-items: center;
     justify-content: center;
     column-gap:32px ;
+
+    
+    @media (max-width:899px){
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    
+
 }
 .about-me__img {
 width: 101px;
@@ -28,5 +37,11 @@ line-height: 1.04;
     font-size: 22px;
     line-height: 1.16;
 }
+
+@media (max-width:899px){
+    width: 322px;
+    
+}
+
 
 }
