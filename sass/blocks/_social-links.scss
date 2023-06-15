@@ -4,7 +4,20 @@
     flex-wrap: wrap;
     column-gap: 48px ;
     row-gap:32px ;
+
+    @media (max-width:899px){
+        width: 204px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        a:nth-child(2) , a:nth-child(4){
+            order: 1;
+        }
+    }
 }
+
+
 
 .social-links-list a:hover{
     color: #075c61;
