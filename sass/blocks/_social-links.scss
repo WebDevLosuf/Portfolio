@@ -6,12 +6,11 @@
     row-gap:32px ;
 
     @media (max-width:899px){
-        width: 204px;
-        display: flex;
+        width:100%;
         flex-direction: column;
-        justify-content: center;
 
-        a:nth-child(2) , a:nth-child(4){
+
+        .social-link:nth-child(2) , .social-link:nth-child(4){
             order: 1;
         }
     }
